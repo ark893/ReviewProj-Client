@@ -24,7 +24,7 @@ export default class MovieDesc extends Component{
             duration: movie.data.data.duration
         })
     }
-
+//hi
     render(){
         const {name, comments, duration} = this.state;
         console.log(name, comments, duration);
